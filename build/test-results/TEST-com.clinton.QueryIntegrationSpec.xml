@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.clinton.QueryIntegrationSpec" tests="3" skipped="0" failures="0" errors="0" timestamp="2016-07-16T19:27:06" hostname="clinton-pc" time="0.354">
+  <properties/>
+  <testcase name="Simple Property Comparison" classname="com.clinton.QueryIntegrationSpec" time="0.226"/>
+  <testcase name="Query on association" classname="com.clinton.QueryIntegrationSpec" time="0.106"/>
+  <testcase name="Getting a single instance" classname="com.clinton.QueryIntegrationSpec" time="0.021"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

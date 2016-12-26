@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.clinton.PostServiceSpec" tests="3" skipped="0" failures="0" errors="0" timestamp="2016-07-29T19:29:46" hostname="clinton-pc" time="5.479">
+  <properties/>
+  <testcase name="Service can successfully update user posts" classname="com.clinton.PostServiceSpec" time="5.357"/>
+  <testcase name="Invalid posts should result in exceptoins" classname="com.clinton.PostServiceSpec" time="0.074"/>
+  <testcase name="Empty posts should result in exceptoins" classname="com.clinton.PostServiceSpec" time="0.047"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

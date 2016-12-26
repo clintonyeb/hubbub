@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.clinton.UserIntegrationSpec" tests="4" skipped="0" failures="0" errors="0" timestamp="2016-07-16T19:27:05" hostname="clinton-pc" time="0.31">
+  <properties/>
+  <testcase name="Saving a User to the database" classname="com.clinton.UserIntegrationSpec" time="0.049"/>
+  <testcase name="Updating a User Data when Changed" classname="com.clinton.UserIntegrationSpec" time="0.024"/>
+  <testcase name="When deleting a User" classname="com.clinton.UserIntegrationSpec" time="0.043"/>
+  <testcase name="Produces error when a user fails validation during saving" classname="com.clinton.UserIntegrationSpec" time="0.193"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

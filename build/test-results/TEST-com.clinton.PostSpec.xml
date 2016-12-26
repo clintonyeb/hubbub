@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.clinton.PostSpec" tests="3" skipped="0" failures="1" errors="0" timestamp="2016-07-29T19:29:52" hostname="clinton-pc" time="2.529">
+  <properties/>
+  <testcase name="Getting a user's timeline given his id" classname="com.clinton.PostSpec" time="2.434"/>
+  <testcase name="When given an invalid id" classname="com.clinton.PostSpec" time="0.035"/>
+  <testcase name="Adding a new post by a valid user" classname="com.clinton.PostSpec" time="0.059">
+    <failure message="java.lang.NullPointerException: Cannot invoke method createPost() on null object" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke method createPost() on null object
+	at com.clinton.PostController.addPost(PostController.groovy:24)
+	at com.clinton.PostSpec.Adding a new post by a valid user(PostSpec.groovy:59)
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

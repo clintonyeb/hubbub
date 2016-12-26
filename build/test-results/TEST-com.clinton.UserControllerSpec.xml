@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.clinton.UserControllerSpec" tests="7" skipped="0" failures="5" errors="0" timestamp="2016-07-26T16:24:24" hostname="clinton-pc" time="1.009">
+  <properties/>
+  <testcase name="Test the index action returns the correct model" classname="com.clinton.UserControllerSpec" time="0.819"/>
+  <testcase name="Test the create action returns the correct model" classname="com.clinton.UserControllerSpec" time="0.034"/>
+  <testcase name="Test the save action correctly persists an instance" classname="com.clinton.UserControllerSpec" time="0.06">
+    <failure message="groovy.lang.MissingMethodException: No signature of method: com.clinton.UserController.save() is applicable for argument types: (com.clinton.User) values: [com.clinton.User : (unsaved)]&#10;Possible solutions: save(), wait(), show(), any(), wait(long), isCase(java.lang.Object)" type="groovy.lang.MissingMethodException">groovy.lang.MissingMethodException: No signature of method: com.clinton.UserController.save() is applicable for argument types: (com.clinton.User) values: [com.clinton.User : (unsaved)]
+Possible solutions: save(), wait(), show(), any(), wait(long), isCase(java.lang.Object)
+	at grails.artefact.gsp.TagLibraryInvoker$Trait$Helper.methodMissing(TagLibraryInvoker.groovy:92)
+	at com.clinton.UserControllerSpec.Test the save action correctly persists an instance(UserControllerSpec.groovy:43)
+</failure>
+  </testcase>
+  <testcase name="Test that the show action returns the correct model" classname="com.clinton.UserControllerSpec" time="0.026">
+    <failure message="groovy.lang.MissingMethodException: No signature of method: com.clinton.UserController.show() is applicable for argument types: (null) values: [null]&#10;Possible solutions: show(), save(), wait(), edit(), any(), find()" type="groovy.lang.MissingMethodException">groovy.lang.MissingMethodException: No signature of method: com.clinton.UserController.show() is applicable for argument types: (null) values: [null]
+Possible solutions: show(), save(), wait(), edit(), any(), find()
+	at grails.artefact.gsp.TagLibraryInvoker$Trait$Helper.methodMissing(TagLibraryInvoker.groovy:92)
+	at com.clinton.UserControllerSpec.Test that the show action returns the correct model(UserControllerSpec.groovy:64)
+</failure>
+  </testcase>
+  <testcase name="Test that the edit action returns the correct model" classname="com.clinton.UserControllerSpec" time="0.026">
+    <failure message="groovy.lang.MissingMethodException: No signature of method: com.clinton.UserController.edit() is applicable for argument types: (null) values: [null]&#10;Possible solutions: edit(), wait(), wait(long), delete(), wait(long, int), split(groovy.lang.Closure)" type="groovy.lang.MissingMethodException">groovy.lang.MissingMethodException: No signature of method: com.clinton.UserController.edit() is applicable for argument types: (null) values: [null]
+Possible solutions: edit(), wait(), wait(long), delete(), wait(long, int), split(groovy.lang.Closure)
+	at grails.artefact.gsp.TagLibraryInvoker$Trait$Helper.methodMissing(TagLibraryInvoker.groovy:92)
+	at com.clinton.UserControllerSpec.Test that the edit action returns the correct model(UserControllerSpec.groovy:80)
+</failure>
+  </testcase>
+  <testcase name="Test the update action performs an update on a valid domain instance" classname="com.clinton.UserControllerSpec" time="0.024">
+    <failure message="groovy.lang.MissingMethodException: No signature of method: com.clinton.UserController.update() is applicable for argument types: (null) values: [null]&#10;Possible solutions: update(), create(), delete(), edit(), patch(), save()" type="groovy.lang.MissingMethodException">groovy.lang.MissingMethodException: No signature of method: com.clinton.UserController.update() is applicable for argument types: (null) values: [null]
+Possible solutions: update(), create(), delete(), edit(), patch(), save()
+	at grails.artefact.gsp.TagLibraryInvoker$Trait$Helper.methodMissing(TagLibraryInvoker.groovy:92)
+	at com.clinton.UserControllerSpec.Test the update action performs an update on a valid domain instance(UserControllerSpec.groovy:98)
+</failure>
+  </testcase>
+  <testcase name="Test that the delete action deletes an instance if it exists" classname="com.clinton.UserControllerSpec" time="0.02">
+    <failure message="groovy.lang.MissingMethodException: No signature of method: com.clinton.UserController.delete() is applicable for argument types: (null) values: [null]&#10;Possible solutions: delete(), edit(), create(), update(), every(), sleep(long)" type="groovy.lang.MissingMethodException">groovy.lang.MissingMethodException: No signature of method: com.clinton.UserController.delete() is applicable for argument types: (null) values: [null]
+Possible solutions: delete(), edit(), create(), update(), every(), sleep(long)
+	at grails.artefact.gsp.TagLibraryInvoker$Trait$Helper.methodMissing(TagLibraryInvoker.groovy:92)
+	at com.clinton.UserControllerSpec.Test that the delete action deletes an instance if it exists(UserControllerSpec.groovy:130)
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

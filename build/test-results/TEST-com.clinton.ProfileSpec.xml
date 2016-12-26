@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.clinton.ProfileSpec" tests="1" skipped="0" failures="1" errors="0" timestamp="2016-07-16T19:08:04" hostname="clinton-pc" time="5.287">
+  <properties/>
+  <testcase name="test something" classname="com.clinton.ProfileSpec" time="5.287">
+    <failure message="Condition not satisfied:&#10;&#10;true == false&#10;     |&#10;     false&#10;" type="org.spockframework.runtime.SpockComparisonFailure">Condition not satisfied:
+
+true == false
+     |
+     false
+
+	at com.clinton.ProfileSpec.test something(ProfileSpec.groovy:20)
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

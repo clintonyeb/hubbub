@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.clinton.PostIntegrationSpec" tests="4" skipped="0" failures="0" errors="0" timestamp="2016-07-16T19:26:44" hostname="clinton-pc" time="21.65">
+  <properties/>
+  <testcase name="Adding posts to user links posts to user" classname="com.clinton.PostIntegrationSpec" time="21.54"/>
+  <testcase name="Ensure that a User's post can be retrieved" classname="com.clinton.PostIntegrationSpec" time="0.036"/>
+  <testcase name="Tests tagging several posts from to users" classname="com.clinton.PostIntegrationSpec" time="0.062"/>
+  <testcase name="Ensure a user can follow other users" classname="com.clinton.PostIntegrationSpec" time="0.011"/>
+  <system-out><![CDATA[Grails application running at http://localhost:34794 in environment: test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
